@@ -142,7 +142,7 @@ $start = (BOOKMAXRESULTSPERPAGE * $page);
 $query = trim(strip_tags($query));
 
 // USQ - fixed DB error when search button is pressed without typing a search query
-if (!$query) {
+if (empty($query)) {
     notice(get_string('emptyquery', 'block_search_books'), "../../course/view.php?id=$course->id");
 }
 
