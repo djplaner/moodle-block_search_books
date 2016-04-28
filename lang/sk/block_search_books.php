@@ -34,3 +34,5 @@ $string['results'] = 'Výsledok hľadania';
 $string['format'] = 'Zvoľte formát zobrazenia výsledku vyhľadávania';
 $string['seconds'] = 'sekúnd';
 $string['searchresults'] = 'Výsledok vyhľadávania';
+$string['search_books:addinstance'] = 'Pridať nový vyhľadávač Book inštanciu'; // USQ - fixed missing language string for block permissions page
+$string['emptyquery'] = 'Žiadne kľúčové slová pre vyhľadávanie poskytované'; // USQ - fixed DB error when search button is pressed without typing a search query
